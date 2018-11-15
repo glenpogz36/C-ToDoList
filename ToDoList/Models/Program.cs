@@ -47,7 +47,7 @@ namespace ToDoList.Models
            
           Console.WriteLine("Would you like to Add, View or Exit? (Add/View/Exit)");
           string option = Console.ReadLine();   
-           if(!string.IsNullOrEmpty(option))
+           while(!string.IsNullOrEmpty(option))
           {
                while(option =="Add")
           {
